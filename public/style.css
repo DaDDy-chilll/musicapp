@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+.navbar_cs {
+  background-color: red;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+}
+.navbrand_cs {
+  height: 100%;
+  background-color: blue;
+}
