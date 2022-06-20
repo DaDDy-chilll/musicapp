@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&display=swap");
+body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+.navbar_cs {
+  /* background-color: red; */
+  height: 10%;
+}
+.navbrand_cs {
+  height: 100%;
+  /* background-color: blue; */
+}
+.headerbrand_cs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuicon_cs {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon_cs {
+  width: 30px;
+  height: 5px;
+  margin: 3px 0px;
+  border-radius: 10px;
+  background-color: blue;
+}
+.navlist_cs ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+.navlist_cs ul > li {
+  list-style: none;
+  align-self: center;
+  margin: 0 20px;
+}
+.navlist_cs ul > li a {
+  text-decoration: none;
+
+  color: #d63c60;
+  font-family: "Fascinate", cursive;
+}
+.navlist_cs ul > li a:hover {
+  color: #8c1430;
+}
+@media screen and (max-width: 544px) {
+  .navbrand_cs {
+    text-align: center;
+  }
+  .navlist_cs {
+    padding: 0;
+  }
+  .navlist_cs ul {
+    display: block;
+    padding: 5px 0 0 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .navlist_cs ul > li {
+    text-align: start;
+    padding: 10px 0;
+  }
+}
