@@ -1,0 +1,24 @@
+{
+  "name": "music_app",
+  "version": "1.0.0",
+  "description": "This music node api app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaDDy-chilll/myonlinecode.git"
+  },
+  "author": "DaDDy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaDDy-chilll/myonlinecode/issues"
+  },
+  "homepage": "https://github.com/DaDDy-chilll/myonlinecode#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "node-youtube-music": "^0.7.0"
+  }
+}
