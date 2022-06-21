@@ -37,5 +37,7 @@
 <pre>npm install body-parser (or) npm i body-parser</pre>
 <li><h5>Node Youtube Music</h5></li>
 <pre>npm install node-youtube-music (or) npm i node-youtube-music</pre>
+<li><h5>EJS</h5></li>
+<pre>npm install ejs (or) npm i ejs</pre>
 </ul>
 
