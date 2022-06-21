@@ -18,8 +18,8 @@
   "homepage": "https://github.com/DaDDy-chilll/myonlinecode#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "node-youtube-music": "^0.7.0"
   }
 }
-

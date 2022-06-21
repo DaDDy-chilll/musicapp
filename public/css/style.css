@@ -9,6 +9,8 @@ body {
 }
 .navbrand_cs {
   height: 100%;
+  z-index: 10;
+  background-color: white;
   /* background-color: blue; */
 }
 .headerbrand_cs {
@@ -16,12 +18,15 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.menu_cs{
+  display: none;
+}
 .menuicon_cs {
   width: 50px;
   height: 50px;
   border-radius: 5px;
-  background-color: red;
-
+  background-color: rgba(134, 133, 133, 0.243);
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,8 +37,24 @@ body {
   height: 5px;
   margin: 3px 0px;
   border-radius: 10px;
-  background-color: blue;
+  background-color: rgb(235, 0, 129);
+  opacity: 1;
+  transition: all 0.5s;
+  transform-origin: left;
 }
+.bar0{
+  transform: rotate(45deg)  translateY(-10px);
+  width: 50px;
+}
+.bar1{
+transform: translateX(-100%);
+opacity: 0;
+}
+.bar2{
+  transform: rotate(-45deg)  translateY(10px);
+  width: 50px;
+}
+
 .navlist_cs ul {
   display: flex;
   justify-content: flex-end;
@@ -57,8 +78,18 @@ body {
   .navbrand_cs {
     text-align: center;
   }
+  .menu_cs{
+    display: block;
+  }
   .navlist_cs {
     padding: 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .navdown{
+    transform: translate(0);
+    opacity: 1;
   }
   .navlist_cs ul {
     display: block;
